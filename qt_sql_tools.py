@@ -20,6 +20,8 @@ class QtSqlTools(object):
 
 
     def savemore(self,sql,data_l):
+
+
         if self.db.isOpen():
             try:
                 self.sql.prepare(sql)
